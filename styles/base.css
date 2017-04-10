@@ -1,19 +1,31 @@
 html {
   font-size: 16px;
-  font-family: 'Alegreya', serif;
+  font-family: "Alegreya", serif;
 }
 
 body{
   background-color: red;
+  font-family: "Alegreya", serif;
 }
 
 li{
   display: inline;
   padding: 1.4rem;
+  background: orange;
 }
 
 ul{
   padding: .5rem 0rem;
+}
+
+.address{
+  background-color: yellow;
+  margin: 0 1rem 0 0;
+}
+
+.navbar{
+  color:white;
+  max-height: 10rem;
 }
 
 .navbar-link:hover{
@@ -23,14 +35,22 @@ ul{
 
 .class-schedule{
   font-size: 2rem;
+  background: white;
+  margin: 1rem 0 0 0;
 }
+
+.contacts{
+  margin: 1rem 0 0 0;
+  background: white;
+}
+
 .logo{
-  height: auto;
-  max-width: 30%;
+  height: 10rem;
+  max-width: 10rem;
 }
 .navbar{
   background-color: green;
-  height: 20%;
+  height: auto;
 }
 #googleMap {
 

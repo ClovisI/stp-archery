@@ -1,26 +1,39 @@
-body{
+/*body{
   position: relative;
+}
+.logo{
+  position:absolute;
 }
 
 .navbar{
   position: relative;
-  display: block;
-  overflow: hidden;
-  top: -50px;
-  right: -50px;
+
 }
 
 .navbar-menu{
   position: absolute;
-  top: -100rem;
+  top: 0rem;
 }
 
 ul{
   height: auto;
-  top: -100rem;
+  top: 0rem;
 }
 
 li{
   display: inline;
-  top:-100rem;
+  top: 0rem;
+}*/
+
+.navbar{
+  position: relative;
+}
+
+.navbar-menu{
+
+}
+
+.logo{
+  position: relative;
+  top: -5rem;
 }
