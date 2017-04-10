@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Straight To the Point Archery</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="\styles\base.css">
+    <link rel="stylesheet" href="\css\positioning.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet"> 
+  </head>
+  <body>
+    <main>
+      <header class="navbar">
+        <nav class="container-fluid navbar-menu">
+          <h1 class="col-xs-7">Straight to the Point Archery</h1>
+          <img class="col-xs-3 logo" src=".\resources\images\logo.jpg" alt="logo">
+          <ul class="col-xs-3">
+            <li class="navbar-link col-md-3"><a href="#">Home</a></li>
+            <li class="navbar-link col-md-3"><a href="#">Schedule</a></li>
+            <li class="navbar-link col-md-3"><a href="#">About</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="content container-fluid">
+      <article class="address col-md-3 col-xs-12">
+        <p class="location">
+          <h2>Come visit us at:</h2>
+          <h2>528 Nock Point Ln</h2>
+          <h2>Tacoma, WA 98412</h2>
+        </p>
+      </article>
+      <div id="googleMap" class="col-md-7 col-xs-10" style="height:30rem;"></div>
+      </div>
+      <div class="container-fluid">
+        <article class="class-schedule col-md-7 col-xs-12">
+          <h2>Current Class Schedule</h2>
+          <p>
+            A101 - Mondays and Wednesdays, 4-5pm
+            A102 - Tuesdays and Thursdays, 4-5pm
+            A103 - Tuesdays and Thursdays, 5-6pm
+          </p>
+        </article>
+        <aside class="col-md-2 col-xs-12 contact">
+          <h2>Contact us:</h2>
+          <p>
+            archery-education@example.com
+            (253)555-1010
+          </p>
+        </aside>
+      </div>
+
+
+    </main>
+
+    <script type="text/javascript">
+    function myMap() {
+      var mapProp= {
+        center:new google.maps.LatLng(47.18,-122.4421887),
+        zoom:15,
+      };
+    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    </script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDz1LRgym0RYJ5lTs3JtaT8W2zY-2a-JoI&callback=myMap"></script>
+  </body>
+  <footer class="container col-xs-12">
+    <aside class="ndp">
+      <h3>Nondiscrimintory policy</h3>
+      <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities
+         available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs.
+         All students are welcome and valuable members of our community. </p>
+    </aside>
+    <ul>
+
+    </ul>
+  </footer>
+</html>
